@@ -503,6 +503,58 @@ form.sign-in-form {
   }
 }
 
+.container3 {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left-container::after {
+  padding: 50px 50px;
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 2000px;
+  top: -10%;
+  left: 52%;
+  transform: translateY(-50%);
+  background-image: linear-gradient(45deg,#009688, #d61084 100%);
+  transition: 1.8s ease-in-out;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+.about-us {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: auto;
+  padding-bottom: 30px;
+}
+
+p.content {
+  font-size: 15px;
+  font-style: oblique;
+  font-weight: 400;
+  font-family: system-ui;
+}
+
+.right-container::before{
+  background-image: linear-gradient(-45deg,#009688, #d61084 100%);
+  border-radius: 50%;
+}
+
+img {
+  width: 709px;
+  padding: 25px;
+}
+
+
 
 /* 
 .container2{
